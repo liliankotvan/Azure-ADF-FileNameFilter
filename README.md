@@ -1,6 +1,6 @@
 # Azure-ADF-FileNameFilter
 
-## (pt-br) Filtro de arquivos no Azure Blob Storage
+## (pt-br) Filtro de arquivos no Azure DataFactory
 
 ### Visão Geral  ![image](https://user-images.githubusercontent.com/45773133/148269556-bd635dd8-26f5-4f4a-bcb2-bc909e020ad6.png)
 
