@@ -73,7 +73,7 @@ Já na aba Sink deve ser adicionado o Dataset do Azure SQL Database, apontando p
 
 Após o preenchimento destas 2 abas, vá até a aba Mapping e clique no botão "Import Schemas". Aparecerá as colunas de origem (Azure Blob Storage) e de destino (Azure SQL Database). As colunas que estiverem com o mesmo nome serão conectadas, as que não tiverem um nome correspondente aparecerão indicadas e devem ser ajustadas até que não seja apontado mais nenhum erro (as colunas podem ser deletadas também, caso necessário)
 
-![image](https://user-images.githubusercontent.com/45773133/148275012-242381ad-6988-4ee0-97aa-d451c3658019.png)
+![image](https://user-images.githubusercontent.com/45773133/148277210-d142b56e-2c1d-4b52-94d7-de7aabf88556.png)
 
 ### Dica
 
@@ -90,7 +90,8 @@ Após o mapeamento, o dataset deve ser reconfigurado somente com o nome do conta
 
 ### Como usar o arquivo no seu projeto
 
-Este arquivo .json se copiado e adicionado a um pipeline no Azure Datafactory pode ser usado como um template. Para adicionar o template ao seu pipeline, crie no Azure DataFactory os Datasets: para o CSV ("CSVBLOB") e para a tabela no BD ("AzureSqlTable"). Após isso, basta clicar em "Code"
+Este arquivo .json se copiado e adicionado a um pipeline no Azure Datafactory pode ser usado como um template. Para adicionar o template ao seu pipeline, crie no Azure DataFactory os Datasets: para o CSV ("CSVBLOB") e para a tabela no BD ("AzureSqlTable"). Após isso, crie um pipeline no Datafactory, clique em "Code"
 
---
-e copiar esse código no lugar do código existente. 
+![image](https://user-images.githubusercontent.com/45773133/148277588-7d985c12-0a32-4b77-b3e7-ea615d7c3442.png)
+
+e substitua o código desse repo no lugar do código existente. 
